@@ -16,9 +16,9 @@ Run this bash script:
 #!/bin/bash/
 sudo apt update
 sudo apt install python3
-sudo apt install git
+sudo apt install wget
 sudo rm pycal-a.py
-git clone https://raw.githubusercontent.com/roccohimel/pycal-a/refs/heads/main/pycal-a.py?token=GHSAT0AAAAAADGUDBH6S2KU4P74DEZX3BU62DELUSQ
+wget https://raw.githubusercontent.com/roccohimel/pycal-a/refs/heads/main/pycal-a.py?token=GHSAT0AAAAAADGUDBH6S2KU4P74DEZX3BU62DELUSQ
 ```
 Run Pycal-A using:
 ```
