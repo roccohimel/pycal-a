@@ -5,12 +5,20 @@ Pycal-A is a free, Python based, Advanced calculator for Linux. Pycal-A lets you
 - Gain access to developer options
 
 More feaures will be comming soon!
+# Updates
+Current support for: Beta versions 0 (BR0)
+July 1, 2025:
+  - Released Pycal-A beta version 0.1 (BR0V1)
+  - Currently working on support for Windows
+  - Currently working on Pycal-A beta version 0.2
+
 # Install support
 Pycal-A beta version 0.1 (BR0V1) is supported on:
 - Debian GNU/Linux 6.0 or newer
 - Debian GNU/Linux 6.0 based distros or newer
 - MacOS 10.13 or newer
 # Install newest version of Pycal-A: For Debian GNU/Linux
+**DO NOT MOVE PYCAL-A OUT OF HOME FOLDER**
 Run this bash script:
 ```
 #!/bin/bash/
@@ -27,4 +35,17 @@ Run Pycal-A using:
 python3 pycal-a.py
 ```
 # Install newest version of Pycal-A: For MacOS
-Run this bash script:
+**DO NOT MOVE PYCAL-A OUT OF HOME FOLDER**
+Paste this bash script into the MacOS terminal:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew update
+brew install python@3.9
+brew install wget
+sudo rm pycal-a.py
+wget https://raw.githubusercontent.com/roccohimel/pycal-a/refs/heads/main/pycal-a.py
+```
+Run Pycal-A using:
+```
+python3 pycal-a.py
+```
