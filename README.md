@@ -10,17 +10,21 @@ Pycal-A beta version 0.1 (BR0V1) is supported on:
 - Debian GNU/Linux 6.0 or newer
 - Debian GNU/Linux 6.0 based distros or newer
 - MacOS 10.13 or newer
-# Install script for Debian GNU/Linux
+# Install newest version of Pycal-A: For Debian GNU/Linux
 Run this bash script:
 ```
 #!/bin/bash/
 sudo apt update
 sudo apt install python3
+sudo apt upgrade python3
 sudo apt install wget
+sudo apt upgrade 
 sudo rm pycal-a.py
-wget https://raw.githubusercontent.com/roccohimel/pycal-a/refs/heads/main/pycal-a.py?token=GHSAT0AAAAAADGUDBH6S2KU4P74DEZX3BU62DELUSQ
+wget https://raw.githubusercontent.com/roccohimel/pycal-a/refs/heads/main/pycal-a.py
 ```
 Run Pycal-A using:
 ```
 python3 pycal-a.py
 ```
+# Install newest version of Pycal-A: For MacOS
+Run this bash script:
