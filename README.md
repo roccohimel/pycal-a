@@ -17,6 +17,16 @@ July 1, 2025:
   - Currently working on support for Windows
   - Currently working on Pycal-A beta version 0.1.1
 
+**Beta version 0.1.1 (BR0V1X1)**: https://github.com/roccohimel/pycal-a/releases/tag/pycal-a-bv0.1.1
+
+July 2, 2025:
+  - Fixed output repeating after chosen option
+  - Added "clear" command to a Python definition: "clear()"
+  - Added "python3 pycal-a.py" to a Python definition: "open()"
+  - Added the start input to a Python definition: "startpmt()"
+  - Added new start input choice: "Update Pycal-A"
+  - Makes sure you have FireFox, then takes you to the GitHub repo to update Pycal-A.
+
 # Install support
 Pycal-A beta version 0.1 (BR0V1) is supported on:
 - Debian GNU/Linux 6.0 or newer
