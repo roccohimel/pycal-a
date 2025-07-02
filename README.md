@@ -88,5 +88,6 @@ Paste this script into the Windows command prompt:
 ```
 winget install -e --id Python.Python.3.11
 winget install -e --id JernejSimoncic.Wget
+del /f /q pycal-a.py
 wget https://raw.githubusercontent.com/roccohimel/pycal-a/refs/heads/main/pycal-a.py
 ```
