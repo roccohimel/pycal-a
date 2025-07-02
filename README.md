@@ -27,6 +27,12 @@ July 2, 2025:
   - Added new start input choice: "Update Pycal-A"
   - Makes sure you have FireFox, then takes you to the GitHub repo to update Pycal-A.
 
+**Beta version 0.1.2 (BR0V1X2)**: https://github.com/roccohimel/pycal-a/releases/tag/pycal-a-bv0.1.2
+
+July 2, 2025:
+- Added support for updating on the spot:
+  This allows you to choose your operating system, then run script that re-installs Pycal-A from GitHub.
+
 # Install support
 Pycal-A beta version 0.1 (BR0V1) is supported on:
 - Debian GNU/Linux 6.0 or newer
