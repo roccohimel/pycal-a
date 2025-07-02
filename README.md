@@ -1,12 +1,16 @@
 # Pycal-A beta version 0.1.1
-Pycal-A is a free, Python based, Advanced calculator for Linux and Mac. Pycal-A lets you:
+Pycal-A is a free, Python based, Advanced calculator for Linux, Mac, and Windows. Pycal-A lets you:
 - Evaluate basic equations
 - Calulate the area and circumfrance of a circle using diameter
+- View date and time
+- Use a stopwatch
+- Set a timer
+- Update direcly from the program
 - Gain access to developer options
 
 More feaures will be comming soon!
 # Updates
-Vist: https://github.com/roccohimel/pycal-a/releases   for all versions
+Vist: https://github.com/roccohimel/pycal-a/releases   for all versio
 
 Current support for: Beta versions 0 (BR0)
 
@@ -32,6 +36,14 @@ July 2, 2025:
 July 2, 2025:
 - Added support for updating on the spot:
   This allows you to choose your operating system, then run script that re-installs Pycal-A from GitHub.
+
+**Beta version 0.2 (BROV2)**: https://github.com/roccohimel/pycal-a/releases/tag/pycal-a-bv0.2
+
+July 2 2025:
+- Added clocks!!!
+- Added date and time clock
+- Added stopwatch
+- Added timer
 
 # Install support
 Pycal-A beta version 0.1 (BR0V1) is supported on:
