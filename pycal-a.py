@@ -1,0 +1,109 @@
+# Copyright (C) 2025 Thermmo Tec.
+# Pycal-A developed by Rocco Himel and Ken Himel
+# Pycal-A beta version 0.1.1 (BR0V1X1)
+import subprocess
+import time
+subprocess.run("clear", shell=True)
+while True:
+	def open():
+		subprocess.run("python3 pycal-a.py", shell=True)
+	def clear():
+		subprocess.run("clear", shell=True)
+	def basic_cal():
+		eq = input("Calculate> ")
+		print(eval(eq))
+	def circle_area():
+		dmtr0 = int(input("Diameter> "))
+		rds0 = dmtr0 / 2
+		rds0E2 = rds0 * rds0
+		area0 = rds0E2 * 3.14
+		print(area0)
+	def circle_circ():
+		dmtr1 = int(input("Diameter> "))
+		rds1 = dmtr1 / 2
+		xPI1 = 2 * 3.14
+		circ1 = xPI1 * rds1
+		print(circ1)
+	def restart():
+		clear()
+		open()
+	def quit():
+		clear()
+		subprocess.run("bash", shell=True)
+	def update():
+		subprocess.run("sudo apt install firefox-esr", shell=True)
+		subprocess.run("firefox https://github.com/roccohimel/pycal-a", shell=True)
+	def endpmt():
+		print()
+		endinp = input("Continue?(y/n) ")
+		if endinp == "y":
+			restart()
+		if endinp == "n":
+			quit()
+	def startpmt():
+		print("Pycal-A beta version bv0.1.1 (BR0V1X1)")
+		print()
+		print("Please choose an option:")
+		print()
+		print("1. Basic calculator")
+		print("2. Calculate the area of a circle")
+		print("   using diameter. (area = PIr^2")
+		print("3. Calculate the circumfrance of")
+		print("   a circle using diameter.")
+		print("   (circ = 2PIr)")
+		print("r. Restart Pycal-A")
+		print("q. Quit Pycal-A")
+		print("d. Developer options")
+		print("u. Update Pycal-A")
+		print()
+		option = input("Number> ")
+		if option == "1":
+			clear()
+			basic_cal()
+			endpmt()
+		if option == "2":
+			clear()
+			circle_area()
+			endpmt()
+		if option == "3":
+			clear()
+			circle_circ()
+			endpmt()
+		if option == "r":
+			clear()
+			restart()
+			endpmt()
+		if option == "q":
+			quit()
+			endpmt()
+		if option == "d":
+			clear()
+			print()
+			print("Developer options: ")
+			print()
+			print("0. << Back")
+			print("1. Test endpmt()")
+			print("2. Edit source code (DO NOT PUBLISH: SEE GNU LICENCE IN GITHUB REPO)")
+			print("3. Test test0()")
+			print()
+			devoption = input("Number> ")
+			if devoption == "0":
+				clear()
+				startpmt()
+			if devoption == "1":
+				clear()
+				print("Testing endpmt()")
+				time.sleep(0.1)
+				endpmt()
+			if devoption == "2":
+				clear()
+				subprocess.run("nano pycal-a.py", shell=True)
+		if option == "u":
+			clear()
+			update()
+			restart()
+		else:
+			print("invalid input: " + option)
+			clear()
+			startpmt()
+	startpmt()
