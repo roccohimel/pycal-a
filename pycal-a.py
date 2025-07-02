@@ -15,7 +15,7 @@ while True:
 		subprocess.run("sudo rm pycal-a.py", shell=True)
 		subprocess.run("wget https://raw.githubusercontent.com/roccohimel/pycal-a/refs/heads/main/pycal-a.py", shell=True)
 	def update_windows():
-		os.system('del /f "pycal-a.py"')
+		os.system('del /f /q "pycal-a.py"')
 		os.system("wget https://raw.githubusercontent.com/roccohimel/pycal-a/refs/heads/main/pycal-a.py")
 	def basic_cal():
 		eq = input("Calculate> ")
