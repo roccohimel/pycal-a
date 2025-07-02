@@ -8,6 +8,7 @@ More feaures will be comming soon!
 # Updates
 Current support for: Beta versions 0 (BR0)
 
+**Beta version 0.1 (BR0V1)**
 July 1, 2025:
   - Released Pycal-A beta version 0.1 (BR0V1)
   - Currently working on support for Windows
@@ -18,6 +19,7 @@ Pycal-A beta version 0.1 (BR0V1) is supported on:
 - Debian GNU/Linux 6.0 or newer
 - Debian GNU/Linux 6.0 based distros or newer
 - MacOS 10.13 or newer
+- Windows 10 or newer
 # Install newest version of Pycal-A: For Debian GNU/Linux
 **DO NOT MOVE PYCAL-A OUT OF HOME FOLDER**
 Run this bash script:
@@ -49,4 +51,11 @@ wget https://raw.githubusercontent.com/roccohimel/pycal-a/refs/heads/main/pycal-
 Run Pycal-A using:
 ```
 python3 pycal-a.py
+```
+# Install newest version of Pycal-A For Windows
+Paste this script into the Windows command prompt:
+```
+winget install -e --id Python.Python.3.11
+winget install -e --id JernejSimoncic.Wget
+wget https://raw.githubusercontent.com/roccohimel/pycal-a/refs/heads/main/pycal-a.py
 ```
