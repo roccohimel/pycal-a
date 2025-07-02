@@ -7,6 +7,7 @@ Pycal-A is a free, Python based, Advanced calculator for Linux and Mac. Pycal-A 
 More feaures will be comming soon!
 # Updates
 Vist: https://github.com/roccohimel/pycal-a/releases   for all versions
+
 Current support for: Beta versions 0 (BR0)
 
 **Beta version 0.1 (BR0V1)**
