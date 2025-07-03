@@ -1,4 +1,4 @@
-# Pycal-A beta version 0.1.1
+# Pycal-A beta version 0.2
 Pycal-A is a free, Python based, Advanced calculator for Linux, Mac, and Windows. Pycal-A lets you:
 - Evaluate basic equations
 - Calulate the area and circumfrance of a circle using diameter
@@ -46,7 +46,7 @@ July 2 2025:
 - Added timer
 
 # Install support
-Pycal-A beta version 0.1 (BR0V1) is supported on:
+Pycal-A beta version 0.2 (BR0V2) is supported on:
 - Debian GNU/Linux 6.0 or newer
 - Debian GNU/Linux 6.0 based distros or newer
 - MacOS 10.13 or newer
