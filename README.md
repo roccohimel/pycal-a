@@ -45,12 +45,16 @@ July 2 2025:
 - Added stopwatch
 - Added timer
 
+**Beta version 0.2.1 (BR0V2X1)**: https://github.com/roccohimel/pycal-a/releases/tag/pycal-a-bv0.2.1
+
+July 3, 2025:
+- Added PSH to Pycal-A (Pyn Shell command prompt) - Only supported on Debian Linux and Mac
+
 # Install support
-Pycal-A beta version 0.2 (BR0V2) is supported on:
+Pycal-A beta version 0.2.1 (BR0V2) is supported on:
 - Debian GNU/Linux 6.0 or newer
 - Debian GNU/Linux 6.0 based distros or newer
 - MacOS 10.13 or newer
-- Windows 10 or newer
 # Install newest version of Pycal-A: For Debian GNU/Linux
 **DO NOT MOVE PYCAL-A OUT OF HOME FOLDER**
 Run this bash script:
